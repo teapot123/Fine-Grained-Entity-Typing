@@ -41,6 +41,7 @@ def extract_hierarchy(filename):
     parent_dict = {}
     level_dict = {}
     current_parent = {}
+    relation_list = {}
 
     child_dict['name'] = 'root'
     with open(filename) as f:
@@ -58,8 +59,9 @@ def extract_hierarchy(filename):
                 current_dict = parent_dict[line.strip()][line.strip()]
                 current_dict['name'] = line.strip()
                 current_parent[level] = current_dict
+                relation_list[line.strip()] = current_parent[level-1]['name']
 
-    return child_dict, parent_dict, level_dict
+    return child_dict, parent_dict, level_dict, relation_list
 
 
 def extract_neg_from_hierarchy(words, entity_list, parent_dict):
