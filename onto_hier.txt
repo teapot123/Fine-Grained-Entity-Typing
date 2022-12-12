@@ -1,0 +1,38 @@
+person
+	author
+	lawyer
+	politician
+	title
+location
+	celestial
+	facility
+	geography
+		waters
+	city
+	country
+organization
+	military
+	government
+	Party
+	company
+		agency
+event
+	protest
+	match
+	conflict
+	disaster
+	election
+currency
+food
+heritage
+law
+plants
+entity
+product
+writing
+leisure
+health
+	treatment
+product
+	computer
+	weapon

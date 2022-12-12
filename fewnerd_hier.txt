@@ -1,0 +1,67 @@
+person
+	artist
+	actor
+	director
+	athlete
+	scholar
+	soldier
+	politician
+art
+	writing
+	program
+	music
+	film
+	painting
+organization
+	company
+	team
+	league
+	government
+	institution
+	media
+	Party
+	band
+	church
+product
+	car
+	weapon
+	airplane
+	software
+	game
+	ship
+	food
+	train
+event
+	protest
+	match
+	election
+	war
+	disaster
+other
+	biology
+	language
+	chemical
+	law
+	celestial
+	award
+	degree
+	disease
+	currency
+	living
+	drug
+	god
+location
+	geopolitical
+	transit
+	mountain
+	island
+	waters
+	park
+building
+	airport
+	club
+	hospital
+	library
+	hotel
+	theater
+	restaurant
